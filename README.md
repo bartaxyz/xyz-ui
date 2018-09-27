@@ -1,2 +1,2 @@
 # xyz-ui
-UI Framework powered by Polymer (Web Components)
+UI Framework powered by Stencil (Web Components)

@@ -1,0 +1,8 @@
+xyz-link {
+	all: unset;
+}
+
+xyz-link a {
+	color: currentColor;
+	font-weight: 400;
+}

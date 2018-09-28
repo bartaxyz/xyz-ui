@@ -1,0 +1,32 @@
+{
+  "namespace": "mycomponent",
+  "fsNamespace": "mycomponent",
+  "loader": "../mycomponent.js",
+  "corePolyfilled": "es5-build-disabled.js",
+  "global": "mycomponent.global.js",
+  "core": "mycomponent.core.js",
+  "components": {
+    "xyz-link": {
+      "bundleIds": {
+        "$": "xyz-link"
+      },
+      "encapsulation": "shadow"
+    },
+    "xyz-typography-caption": {
+      "bundleIds": {
+        "$": "xyz-typography-caption"
+      }
+    },
+    "xyz-typography-headline": {
+      "bundleIds": {
+        "$": "xyz-typography-headline"
+      },
+      "encapsulation": "shadow"
+    },
+    "xyz-typography-paragraph": {
+      "bundleIds": {
+        "$": "xyz-typography-paragraph"
+      }
+    }
+  }
+}

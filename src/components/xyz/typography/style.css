@@ -1,0 +1,62 @@
+xyz-typography-headline,
+xyz-typography-paragraph,
+xyz-typography-caption {
+	font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+xyz-typography-headline {
+	background: red;
+	display: block;
+}
+
+:host h1,
+:host h2,
+:host h3,
+:host h4,
+:host h5,
+:host h6 {
+	line-height: 1em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+xyz-typography-headline:host h1,
+xyz-typography-headline:host h2 {
+	font-weight: 400;
+}
+
+xyz-typography-headline:host h3,
+xyz-typography-headline:host h4,
+xyz-typography-headline:host h5,
+xyz-typography-headline:host h6 {
+	font-weight: 500;
+}
+
+xyz-typography-headline:host h1 {
+	font-size: 6rem;
+}
+xyz-typography-headline:host h2 {
+	font-size: 3.75rem;
+}
+xyz-typography-headline:host h3 {
+	font-size: 3rem;
+}
+xyz-typography-headline:host h4 {
+	font-size: 2.125rem;
+}
+xyz-typography-headline:host h5 {
+	font-size: 1.5rem;
+}
+xyz-typography-headline:host h6 {
+	font-size: 1.25rem;
+}
+
+xyz-typography-paragraph {
+	display: block;
+}
+
+xyz-typography-caption {
+	display: inline;
+	font-size: 0.6875rem;
+}

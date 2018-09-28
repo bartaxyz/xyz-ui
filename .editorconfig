@@ -1,0 +1,27 @@
+
+root = true
+
+[*]
+charset = utf-8
+
+[*.md]
+indent_style = space
+indent_size = 2
+
+[*.ts]
+indent_style = tab
+
+[*.tsx]
+indent_style = tab
+
+[*.js]
+indent_style = tab
+
+[*.jsx]
+indent_style = tab
+
+[*.html]
+indent_style = tab
+
+[*.css]
+indent_style = tab

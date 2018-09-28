@@ -1,0 +1,2 @@
+- **Components**
+  - [Typography](/components/typography)

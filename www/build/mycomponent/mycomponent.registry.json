@@ -15,7 +15,8 @@
     "xyz-typography-caption": {
       "bundleIds": {
         "$": "xyz-typography-caption"
-      }
+      },
+      "encapsulation": "shadow"
     },
     "xyz-typography-headline": {
       "bundleIds": {
@@ -26,7 +27,8 @@
     "xyz-typography-paragraph": {
       "bundleIds": {
         "$": "xyz-typography-paragraph"
-      }
+      },
+      "encapsulation": "shadow"
     }
   }
 }

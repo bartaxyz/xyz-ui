@@ -13,9 +13,22 @@
 
 	<style>
 		example-preview {
+			position: relative;
 			display: block;
-			padding: 16px;
-			border: 1px solid whitesmoke
+			padding: 2.2em;
+			border: 1px solid whitesmoke;
+			margin-bottom: -1.2em;
+			max-height: 350px;
+			overflow: auto;
+		}
+
+		example-preview:before {
+			content: 'Preview';
+			position: absolute;
+			top: 0;
+			right: 0;
+			font-family: monospace;
+			font-size: 0.75rem;
 		}
 	</style>
 
@@ -33,7 +46,7 @@
 			search: 'auto',
 			loadSidebar: true,
 			subMaxLevel: 2,
-			themeColor: '#000000',
+			themeColor: '#000',
 			alias: { '/.*/_sidebar.md': '/_sidebar.md' },
 			pagination: {
 				previousText: 'Previous',

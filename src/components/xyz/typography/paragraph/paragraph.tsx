@@ -2,8 +2,8 @@ import { Component } from "@stencil/core";
 
 @Component({
 	tag: "xyz-typography-paragraph",
-	styleUrl: "style.css",
-	shadow: false
+	styleUrl: "paragraph.css",
+	shadow: true
 })
 export class XYZTypographyParagraph {
 	render() {

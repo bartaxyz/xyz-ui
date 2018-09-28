@@ -20,12 +20,22 @@
 <xyz-typography-headline level="6">Headline 6</xyz-typography-headline>
 ```
 
+#### Attributes
+
+`level` &middot; Number from 1-6
+
 ## Link
 
 <example-preview>
-  <xyz-link>Link text</xyz-link>
+  <xyz-link to="https://ondrejbarta.xyz">Link text</xyz-link>
 </example-preview>
 
 ```html
-<xyz-link>Link text</xyz-link>
+<xyz-link to="https://ondrejbarta.xyz">Link text</xyz-link>
 ```
+
+#### Attributes
+
+`to` &middot; URL string, same as you'd use in an `<a>`.
+
+`target` &middot; Same as you'd use in an `<a>`.

@@ -749,11 +749,8 @@ s=document.querySelector("script[data-namespace='mycomponent']");if(s){resources
       // add getter/setter to the component instance
       // these will be pointed to the internal data set from the above checks
             definePropertyGetterSetter(instance, memberName, getComponentProp, setComponentProp);
-    } else if (true, property.elementRef) 
-    // @Element()
-    // add a getter to the element reference using
-    // the member name the component meta provided
-    definePropertyValue(instance, memberName, elm); else {
+    } else {
+      false;
       false;
       false;
       false;

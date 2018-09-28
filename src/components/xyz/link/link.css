@@ -1,8 +1,5 @@
-xyz-link {
-	all: unset;
-}
-
-xyz-link a {
+:host a {
 	color: currentColor;
 	font-weight: 400;
+	text-decoration: underline;
 }

@@ -10,7 +10,6 @@ export class XYZLink {
 	to: string;
 
 	render() {
-		console.log((this as any).setAttribute);
 		return (
 			<a href={this.to}>
 				<slot />

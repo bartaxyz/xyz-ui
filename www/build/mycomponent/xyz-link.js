@@ -3,7 +3,6 @@ const { h } = window.mycomponent;
 
 class XYZLink {
     render() {
-        console.log(this.setAttribute);
         return (h("a", { href: this.to },
             h("slot", null)));
     }
@@ -15,7 +14,7 @@ class XYZLink {
             "attr": "to"
         }
     }; }
-    static get style() { return "xyz-link {\n	all: unset;\n}\n\nxyz-link a {\n	color: currentColor;\n	font-weight: 400;\n}"; }
+    static get style() { return ":host a {\n	color: currentColor;\n	font-weight: 400;\n	text-decoration: underline;\n}"; }
 }
 
 export { XYZLink as XyzLink };

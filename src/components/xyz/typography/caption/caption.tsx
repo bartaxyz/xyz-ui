@@ -2,10 +2,10 @@ import { Component } from "@stencil/core";
 
 @Component({
 	tag: "xyz-typography-caption",
-	styleUrl: "style.css",
-	shadow: false
+	styleUrl: "caption.css",
+	shadow: true
 })
-export class XYZTypographyParagraph {
+export class XYZTypographyCaption {
 	render() {
 		return <slot />;
 	}

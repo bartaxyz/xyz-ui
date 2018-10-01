@@ -25,3 +25,6 @@ indent_style = tab
 
 [*.css]
 indent_style = tab
+
+[*.scss]
+indent_style = tab

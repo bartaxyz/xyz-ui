@@ -1,6 +1,6 @@
 /*!
  * Built with http://stenciljs.com
- * 2018-08-28T13:06:45
+ * 2018-09-01T09:23:13
  */
 (function(win, doc, namespace, fsNamespace, resourcesUrl, appCore, appCoreSsr, appCorePolyfilled, hydratedCssClass, components) {
 
@@ -135,4 +135,4 @@ function createComponentOnReadyPrototype(win, namespace, HTMLElementPrototype) {
 
   init(win, doc, namespace, fsNamespace, resourcesUrl, appCore, appCoreSsr, appCorePolyfilled, hydratedCssClass, components);
 
-  })(window, document, "mycomponent","mycomponent",0,"mycomponent.core.js","es5-build-disabled.js","hydrated",[["xyz-link","xyz-link",1,[["to",1,0,1,2]],1],["xyz-typography-caption","xyz-typography-caption",1,0,1],["xyz-typography-headline","xyz-typography-headline",1,[["level",1,0,1,4]],1],["xyz-typography-paragraph","xyz-typography-paragraph",1,0,1]],HTMLElement.prototype);
+  })(window, document, "mycomponent","mycomponent",0,"mycomponent.core.js","es5-build-disabled.js","hydrated",[["xyz-link","xyz-link",1,[["download",1,0,1,2],["href",1,0,1,2],["hreflang",1,0,1,2],["rel",1,0,1,2],["target",1,0,1,2],["to",1,0,1,2]],1],["xyz-text-field","xyz-text-field",1,[["disabled",1,0,1,3],["errorText",1,0,"error-text",2],["getInput",6],["getLabel",6],["helperText",1,0,"helper-text",2],["label",1,0,1,2],["placeholder",1,0,1,2],["required",1,0,1,3],["value",1,0,1,2]],1],["xyz-typography-caption","xyz-text-field",1,0,1],["xyz-typography-headline","xyz-typography-headline",1,[["level",1,0,1,4]],1],["xyz-typography-paragraph","xyz-typography-paragraph",1,0,1]],HTMLElement.prototype);

@@ -1,5 +1,7 @@
 - **Introduction**
-  - [Getting Started](/introduction/getting-started)
+  - [Getting Started](/introduction/GettingStarted)
 
 - **Components**
-  - [Typography](/components/typography)
+  - [Link](/components/Link)
+  - [Text Field](/components/TextField)
+  - [Typography](/components/Typography)

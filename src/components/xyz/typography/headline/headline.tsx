@@ -2,7 +2,7 @@ import { Component, Prop } from "@stencil/core";
 
 @Component({
 	tag: "xyz-typography-headline",
-	styleUrl: "headline.css",
+	styleUrl: "Headline.scss",
 	shadow: true
 })
 export class XYZTypographyHeadline {

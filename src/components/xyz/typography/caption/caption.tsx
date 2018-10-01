@@ -2,7 +2,7 @@ import { Component } from "@stencil/core";
 
 @Component({
 	tag: "xyz-typography-caption",
-	styleUrl: "caption.css",
+	styleUrl: "Caption.scss",
 	shadow: true
 })
 export class XYZTypographyCaption {

@@ -1,0 +1,12 @@
+@import "../typography.scss";
+
+:host {
+	display: inline;
+	font-size: 0.75rem;
+	text-decoration: inherit;
+	line-height: 1rem;
+
+	slot {
+		text-decoration: inherit;
+	}
+}

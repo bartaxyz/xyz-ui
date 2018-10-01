@@ -25,7 +25,24 @@ declare global {
   namespace StencilComponents {
 
     interface XyzLink {
+      'download': string;
+      'href': string;
+      'hreflang': string;
+      'rel': string;
+      'target': string;
       'to': string;
+    }
+
+    interface XyzTextField {
+      'disabled': boolean;
+      'errorText': string;
+      'getInput': () => HTMLInputElement;
+      'getLabel': () => HTMLElement;
+      'helperText': string;
+      'label': string;
+      'placeholder': string;
+      'required': boolean;
+      'value': string;
     }
 
     interface XyzTypographyCaption {
@@ -47,6 +64,14 @@ declare global {
     var HTMLXyzLinkElement: {
       prototype: HTMLXyzLinkElement;
       new (): HTMLXyzLinkElement;
+    };
+    
+
+    interface HTMLXyzTextFieldElement extends StencilComponents.XyzTextField, HTMLStencilElement {}
+
+    var HTMLXyzTextFieldElement: {
+      prototype: HTMLXyzTextFieldElement;
+      new (): HTMLXyzTextFieldElement;
     };
     
 
@@ -78,6 +103,7 @@ declare global {
     interface Element {}
     export interface IntrinsicElements {
     'xyz-link': JSXElements.XyzLinkAttributes;
+    'xyz-text-field': JSXElements.XyzTextFieldAttributes;
     'xyz-typography-caption': JSXElements.XyzTypographyCaptionAttributes;
     'xyz-typography-headline': JSXElements.XyzTypographyHeadlineAttributes;
     'xyz-typography-paragraph': JSXElements.XyzTypographyParagraphAttributes;
@@ -87,7 +113,22 @@ declare global {
   namespace JSXElements {
 
     export interface XyzLinkAttributes extends HTMLAttributes {
+      'download'?: string;
+      'href'?: string;
+      'hreflang'?: string;
+      'rel'?: string;
+      'target'?: string;
       'to'?: string;
+    }
+
+    export interface XyzTextFieldAttributes extends HTMLAttributes {
+      'disabled'?: boolean;
+      'errorText'?: string;
+      'helperText'?: string;
+      'label'?: string;
+      'placeholder'?: string;
+      'required'?: boolean;
+      'value'?: string;
     }
 
     export interface XyzTypographyCaptionAttributes extends HTMLAttributes {
@@ -105,6 +146,7 @@ declare global {
 
   interface HTMLElementTagNameMap {
     'xyz-link': HTMLXyzLinkElement
+    'xyz-text-field': HTMLXyzTextFieldElement
     'xyz-typography-caption': HTMLXyzTypographyCaptionElement
     'xyz-typography-headline': HTMLXyzTypographyHeadlineElement
     'xyz-typography-paragraph': HTMLXyzTypographyParagraphElement
@@ -112,6 +154,7 @@ declare global {
 
   interface ElementTagNameMap {
     'xyz-link': HTMLXyzLinkElement;
+    'xyz-text-field': HTMLXyzTextFieldElement;
     'xyz-typography-caption': HTMLXyzTypographyCaptionElement;
     'xyz-typography-headline': HTMLXyzTypographyHeadlineElement;
     'xyz-typography-paragraph': HTMLXyzTypographyParagraphElement;

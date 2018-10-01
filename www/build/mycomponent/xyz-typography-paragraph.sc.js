@@ -8,7 +8,7 @@ class XYZTypographyParagraph {
     }
     static get is() { return "xyz-typography-paragraph"; }
     static get encapsulation() { return "shadow"; }
-    static get style() { return "\n.sc-xyz-typography-paragraph-h {\n	display: block;\n	font-family: \"Source Sans Pro\", Helvetica, Arial, sans-serif;\n	-webkit-font-smoothing: antialiased;\n}\n"; }
+    static get style() { return "\n.sc-xyz-typography-paragraph-h {\n  font-family: \"Source Sans Pro\", Helvetica, Arial, sans-serif;\n  -webkit-font-smoothing: antialiased; }\n\n.sc-xyz-typography-paragraph-h {\n  display: block; }\n"; }
 }
 
 export { XYZTypographyParagraph as XyzTypographyParagraph };

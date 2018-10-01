@@ -15,11 +15,14 @@
 		example-preview {
 			position: relative;
 			display: block;
-			padding: 2.2em;
-			border: 1px solid whitesmoke;
+			padding: 32px;
+			-box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
 			margin-bottom: -1.2em;
-			max-height: 350px;
+			border: 1px solid #f8f8f8;
+			-max-height: 350px;
 			overflow: auto;
+			z-index: 10;
+			color: #08457B;
 		}
 
 		example-preview:before {
@@ -28,7 +31,14 @@
 			top: 0;
 			right: 0;
 			font-family: monospace;
-			font-size: 0.75rem;
+
+			color: #ccc;
+			font-size: .6rem;
+			font-weight: 600;
+			height: 15px;
+			line-height: 15px;
+			padding: 5px 10px 0;
+			text-align: right;
 		}
 	</style>
 

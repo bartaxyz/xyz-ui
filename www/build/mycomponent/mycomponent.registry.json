@@ -12,9 +12,15 @@
       },
       "encapsulation": "shadow"
     },
+    "xyz-text-field": {
+      "bundleIds": {
+        "$": "xyz-text-field"
+      },
+      "encapsulation": "shadow"
+    },
     "xyz-typography-caption": {
       "bundleIds": {
-        "$": "xyz-typography-caption"
+        "$": "xyz-text-field"
       },
       "encapsulation": "shadow"
     },

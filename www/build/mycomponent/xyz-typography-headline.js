@@ -39,7 +39,7 @@ class XYZTypographyHeadline {
             "attr": "level"
         }
     }; }
-    static get style() { return ":host {\n	font-family: \"Source Sans Pro\", Helvetica, Arial, sans-serif;\n	-webkit-font-smoothing: antialiased;\n	display: block;\n}\n\n:host h1,\n:host h2,\n:host h3,\n:host h4,\n:host h5,\n:host h6 {\n	line-height: 1em;\n	margin-top: 0.5em;\n	margin-bottom: 0.5em;\n}\n\n:host h1,\n:host h2 {\n	font-weight: 400;\n}\n\n:host h3,\n:host h4,\n:host h5,\n:host h6 {\n	font-weight: 500;\n}\n\n:host h1 {\n	font-size: 6rem;\n}\n:host h2 {\n	font-size: 3.75rem;\n}\n:host h3 {\n	font-size: 3rem;\n}\n:host h4 {\n	font-size: 2.125rem;\n}\n:host h5 {\n	font-size: 1.5rem;\n}\n:host h6 {\n	font-size: 1.25rem;\n}"; }
+    static get style() { return ":host {\n  display: block; }\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  line-height: 1em;\n  margin-top: 0.5em;\n  margin-bottom: 0.5em; }\n\nh1,\nh2 {\n  font-weight: 400; }\n\nh3,\nh4,\nh5,\nh6 {\n  font-weight: 500; }\n\nh1 {\n  font-size: 6rem; }\n\nh2 {\n  font-size: 3.75rem; }\n\nh3 {\n  font-size: 3rem; }\n\nh4 {\n  font-size: 2.125rem; }\n\nh5 {\n  font-size: 1.5rem; }\n\nh6 {\n  font-size: 1.25rem; }"; }
 }
 
 export { XYZTypographyHeadline as XyzTypographyHeadline };

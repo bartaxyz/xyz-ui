@@ -33,7 +33,7 @@ Alternatively, if you wanted to take advantage of ES Modules, you could include 
 </html>
 ```
 
-This examples and text was taken from [Stencil Docs - Components without a Framework](https://stenciljs.com/docs/javascript) and slightly edited to fit XYZ UI context.
+Examples and text were taken from [Stencil Docs - Components without a Framework](https://stenciljs.com/docs/javascript) and slightly edited to fit XYZ UI context.
 
 ## Vue
 
@@ -56,7 +56,7 @@ new Vue({
 
 Vue provides several different ways to install and use the framework in an application. The above technique for integrating a Stencil custom element library has been tested on a Vue application that was created using the vue-cli with ES2015 and WebPack as primary options. A similar technique should work if the application was generated using other options.
 
-This examples and text was taken from [Stencil Docs - Vue](https://stenciljs.com/docs/vue) and slightly edited to fit XYZ UI context.
+Examples and text were taken from [Stencil Docs - Vue](https://stenciljs.com/docs/vue) and slightly edited to fit XYZ UI context.
 
 ## React
 
@@ -78,7 +78,7 @@ defineCustomElements(window);
 
 After this step, you'll be able to use XYZ UI in react as web components. For more info, read the [Web Components - React](https://reactjs.org/docs/web-components.html) guide.
 
-This examples and text was taken from [Stencil Docs - React](https://stenciljs.com/docs/react) and slightly edited to fit XYZ UI context.
+Examples and text were taken from [Stencil Docs - React](https://stenciljs.com/docs/react) and slightly edited to fit XYZ UI context.
 
 ## Angular
 
@@ -132,4 +132,4 @@ platformBrowserDynamic().bootstrapModule(AppModule)
 defineCustomElements(window);
 ```
 
-This examples and text was taken from [Stencil Docs - Angular](https://stenciljs.com/docs/angular) and slightly edited to fit XYZ UI context.
+Examples and text were taken from [Stencil Docs - Angular](https://stenciljs.com/docs/angular) and slightly edited to fit XYZ UI context.

@@ -1,38 +1,38 @@
 {
-  "namespace": "mycomponent",
-  "fsNamespace": "mycomponent",
-  "loader": "../mycomponent.js",
-  "corePolyfilled": "es5-build-disabled.js",
-  "global": "mycomponent.global.js",
-  "core": "mycomponent.core.js",
+  "namespace": "xyz",
+  "fsNamespace": "xyz",
+  "loader": "../xyz.js",
+  "global": "xyz.global.js",
+  "core": "xyz.t5qtnxr7.js",
+  "corePolyfilled": "xyz.worf9efz.js",
   "components": {
     "xyz-link": {
       "bundleIds": {
-        "$": "xyz-link"
+        "$": "6arighgw"
       },
       "encapsulation": "shadow"
     },
     "xyz-text-field": {
       "bundleIds": {
-        "$": "xyz-text-field"
+        "$": "fj23f8dw"
       },
       "encapsulation": "shadow"
     },
     "xyz-typography-caption": {
       "bundleIds": {
-        "$": "xyz-text-field"
+        "$": "fj23f8dw"
       },
       "encapsulation": "shadow"
     },
     "xyz-typography-headline": {
       "bundleIds": {
-        "$": "xyz-typography-headline"
+        "$": "r9eia8zk"
       },
       "encapsulation": "shadow"
     },
     "xyz-typography-paragraph": {
       "bundleIds": {
-        "$": "xyz-typography-paragraph"
+        "$": "z8gljsjf"
       },
       "encapsulation": "shadow"
     }

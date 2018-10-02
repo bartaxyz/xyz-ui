@@ -1,5 +1,5 @@
 /*! Built with http://stenciljs.com */
-const { h } = window.mycomponent;
+const { h } = window.xyz;
 
 class XYZTextField {
     getInput() {
@@ -61,7 +61,7 @@ class XYZTextField {
             "attr": "value"
         }
     }; }
-    static get style() { return ":host {\n  display: block; }\n\n.TextField {\n  display: block;\n  background: rgba(0, 0, 0, 0.025);\n  padding: 6px 8px 8px;\n  border-radius: 6px;\n  -webkit-box-shadow: inset 0 0 0 0 currentColor;\n  box-shadow: inset 0 0 0 0 currentColor;\n  -webkit-transition: 0.1s;\n  transition: 0.1s; }\n  .TextField:focus-within {\n    -webkit-box-shadow: inset 0 0 0 2px currentColor;\n    box-shadow: inset 0 0 0 2px currentColor; }\n\n.TextField--disabled {\n  background: transparent;\n  -webkit-box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.025);\n  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.025); }\n\n.TextField__Label {\n  display: block; }\n\n.TextField__Label__ErrorMessage {\n  color: red; }\n\n.TextField__Input {\n  display: block;\n  border: none;\n  background: transparent;\n  margin: 0;\n  padding: 0;\n  width: 100%;\n  font-size: 0.875rem; }\n  .TextField__Input:focus {\n    outline: none; }\n\n.TextField__Input::-webkit-input-placeholder {\n  color: currentColor;\n  opacity: 0.2; }\n\n.TextField__Input::-moz-placeholder {\n  color: currentColor;\n  opacity: 0.2; }\n\n.TextField__Input:-ms-input-placeholder {\n  color: currentColor;\n  opacity: 0.2; }\n\n.TextField__Input:-moz-placeholder {\n  color: currentColor;\n  opacity: 0.2; }\n\nslot {\n  text-decoration: inherit; }"; }
+    static get style() { return ":host {\n  display: block; }\n\n.TextField {\n  display: block;\n  background: rgba(0, 0, 0, 0.025);\n  padding: 6px 8px 8px;\n  border-radius: 6px;\n  -webkit-box-shadow: inset 0 0 0 0 currentColor;\n  box-shadow: inset 0 0 0 0 currentColor;\n  cursor: text;\n  -webkit-transition: 0.1s;\n  transition: 0.1s; }\n  .TextField:focus-within {\n    -webkit-box-shadow: inset 0 0 0 2px currentColor;\n    box-shadow: inset 0 0 0 2px currentColor; }\n\n.TextField--disabled {\n  background: transparent;\n  -webkit-box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.025);\n  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.025); }\n\n.TextField__Label {\n  display: block; }\n\n.TextField__Label__ErrorMessage {\n  color: red; }\n\n.TextField__Label__HelperMessage {\n  color: var(--xyz-text-field-helper-message);\n  color: lime;\n  opacity: 0.5; }\n\n.TextField__Input {\n  display: block;\n  border: none;\n  background: transparent;\n  margin: 0;\n  padding: 0;\n  width: 100%;\n  font-size: 0.875rem; }\n  .TextField__Input:focus {\n    outline: none; }\n\n.TextField__Input::-webkit-input-placeholder {\n  color: currentColor;\n  opacity: 0.2; }\n\n.TextField__Input::-moz-placeholder {\n  color: currentColor;\n  opacity: 0.2; }\n\n.TextField__Input:-ms-input-placeholder {\n  color: currentColor;\n  opacity: 0.2; }\n\n.TextField__Input:-moz-placeholder {\n  color: currentColor;\n  opacity: 0.2; }\n\nslot {\n  text-decoration: inherit; }"; }
 }
 
 class XYZTypographyCaption {

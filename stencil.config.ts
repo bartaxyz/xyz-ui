@@ -3,7 +3,7 @@ import { sass } from "@stencil/sass";
 
 export const config: Config = {
 	plugins: [sass()],
-	namespace: "mycomponent",
+	namespace: "xyz",
 	globalStyle: "src/global/variables.css",
 	outputTargets: [
 		{

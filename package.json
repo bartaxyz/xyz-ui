@@ -2,20 +2,21 @@
   "name": "xyz-ui",
   "version": "0.0.1",
   "description": "UI framework powered by Stencil (Web Components)",
-  "module": "dist/esm/index.js",
-  "main": "dist/index.js",
+  "main": "dist/xyz.js",
   "types": "dist/types/components.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "files": [
     "dist/"
   ],
+  "module": "dist/esm/index.js",
   "scripts": {
+    "clean": "rimraf ./dist ./www",
     "build": "stencil build",
-    "start": "stencil build --dev --watch --serve",
-    "es5": "stencil build --dev --watch --serve --es5",
-    "docs": "stencil build --dev --watch --serve --docs",
+    "start": "npm run clean && npm run stencil & http-server",
+    "stencil": "stencil build --dev --watch --serve",
     "test": "jest",
-    "test.watch": "jest --watch"
+    "test.watch": "jest --watch",
+    "prepublishOnly": "npm run clean && npm run build"
   },
   "repository": {
     "type": "git",
@@ -38,7 +39,9 @@
     "@stencil/core": "^0.11.0",
     "@stencil/sass": "^0.1.1",
     "@types/jest": "^23.3.1",
-    "jest": "^23.4.2"
+    "http-server": "^0.11.1",
+    "jest": "^23.4.2",
+    "rimraf": "^2.6.2"
   },
   "jest": {
     "transform": {

@@ -9,17 +9,16 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
 
-	<script src="../www/build/mycomponent.js"></script>
+	<link rel="stylesheet" src="/www/build/xyz.css" />
+	<script src="/www/build/xyz.js"></script>
 
 	<style>
 		example-preview {
 			position: relative;
 			display: block;
 			padding: 32px;
-			-box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
 			margin-bottom: -1.2em;
 			border: 1px solid #f8f8f8;
-			-max-height: 350px;
 			overflow: auto;
 			z-index: 10;
 			color: #08457B;
@@ -55,6 +54,7 @@
 			coverpage: false,
 			search: 'auto',
 			loadSidebar: true,
+			logo: '_media/Logo.svg',
 			subMaxLevel: 2,
 			themeColor: '#000',
 			alias: { '/.*/_sidebar.md': '/_sidebar.md' },

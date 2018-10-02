@@ -2,24 +2,24 @@
 
 <example-preview>
   <xyz-text-field
-    label="Last Name"
-    helperText="Normal"
-    placeholder="Nakamoto"></xyz-text-field>
+    label="Full Name"
+    helper-text="Normal"
+    placeholder="Satoshi Nakamoto"></xyz-text-field>
   <br />
   <xyz-text-field
-    label="Last Name"
-    helperText="Normal"
-    errorText="Error Text"></xyz-text-field>
+    label="Full Name error"
+    error-text="Error Text"></xyz-text-field>
   <br />
   <xyz-text-field
-    label="Last Name—Disabled/Read Only"
+    label="Full Name"
     value="Something"
+    helper-text="Disabled/Read Only"
     disabled></xyz-text-field>
 </example-preview>
 
 ```html
 <xyz-text-field
-  label="Text Field"
+  label="Full Name"
   error="You cannot do that!"
 />
 ```
@@ -30,9 +30,9 @@
 
 `value` &middot; Value that is passed down to `<input />`.
 
-`errorText` &middot; Highlighted error message. This value overrides value inside `helperText`.
+`error-text` &middot; Highlighted error message. This value overrides value inside `helperText`.
 
-`helperText` &middot; Dimmed helper message.
+`helper-text` &middot; Dimmed helper message.
 
 ### Methods
 
